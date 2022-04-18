@@ -5,7 +5,8 @@
 * [NumPy](http://www.numpy.org/) -  The randomized routines used for stochastic simulations are implemented using NumPy.
 
 ## Runing Collect data
-To collect training and test data, run 'data_record.py'. Various  parameters are available in the file.
+To collect training and test data, run 'data_record.py'. Various  parameters are available in the file. The record data will be store into a folder call 'data'
+
 ```console
 
 optional arguments:
