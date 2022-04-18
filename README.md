@@ -6,3 +6,11 @@
 
 ## Runing Collect data
 To collect training and test data, run 'data_record.py'. Various  parameters are available in the file.
+```console
+
+optional arguments:
+--train                  Record training data or testing data. 1 for training data. 0 for testing data.
+--store_method           Choose the what kinds of store method you want to use. 1 for record the facial landmarks data. 0 for facial image
+--expression_ID          The data expression ID tag.
+--show_landmarks         If you want to show the landmark points in the camera screen.
+--relative_coordinates   Take the first landmark point as base point. Calculate the position of the rest of points based on the origin.
