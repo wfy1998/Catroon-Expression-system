@@ -3,6 +3,11 @@
 ### Dependencies
 * [Python](https://www.python.org/) - The code is designed to work with Python 2.7 and Python 3.5 or greater.
 * [NumPy](http://www.numpy.org/) -  The randomized routines used for stochastic simulations are implemented using NumPy.
+* [TensorFlow](https://www.tensorflow.org/) - The core open source library to help you develop and train ML models. Get started quickly by running Colab notebooks directly in your browser.
+* [Pandas](https://pandas.pydata.org/) - pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+
+
+
 
 ## Runing Collect data
 To collect training and test data, run `data_record.py`. Various  parameters are available in the file. The record data will be store into a folder call `data`
