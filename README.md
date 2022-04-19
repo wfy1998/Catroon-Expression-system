@@ -5,7 +5,7 @@
 * [NumPy](http://www.numpy.org/) -  The randomized routines used for stochastic simulations are implemented using NumPy.
 
 ## Runing Collect data
-To collect training and test data, run 'data_record.py'. Various  parameters are available in the file. The record data will be store into a folder call 'data'
+To collect training and test data, run `data_record.py`. Various  parameters are available in the file. The record data will be store into a folder call `data`
 
 ```console
 
@@ -17,3 +17,17 @@ optional arguments:
 --relative_coordinates   Take the first landmark point as base point. Calculate the position of the rest of points based on the origin.
 
 ```
+
+## Train data
+
+```console
+
+python landmark_train.py
+python image_train.py
+```
+
+## Real-time tracking
+
+```console
+
+python real_time_tracking.py
